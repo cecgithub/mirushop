@@ -332,8 +332,6 @@ html {
   .p-top-lead__txt {
     margin-top: 5px;
     font-size: 1.6rem;
-    letter-spacing: 0.35em;
-    line-height: 2.5;
   }
   
   .p-top-list {
