@@ -144,6 +144,7 @@ body {
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Amaranth', sans-serif;
   }
   
   .cats {
@@ -161,7 +162,7 @@ body {
     max-width: 250px;
     padding: 10px;
     border-radius: 5px;
-    
+    font-family: 'Amaranth', sans-serif;
   }
   
   .cat:hover {
@@ -199,6 +200,7 @@ body {
   .name {
     font-size: 25px;
     font-weight: 500;
+    font-family: 'Amaranth', sans-serif;
   }
   
   .priceValue {
@@ -211,6 +213,7 @@ body {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 30px;
+    font-family: 'Amaranth', sans-serif;
   }
   
   input[type="range"] {
