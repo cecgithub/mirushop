@@ -115,7 +115,6 @@ body {
   overflow-x: hidden;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
-  position: relative;
   hanging-punctuation: allow-end;
 }
   
