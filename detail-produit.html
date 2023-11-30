@@ -1,22 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mirushop</title>
-    <meta name="description" content="Découvrez une large gamme de produits de qualité sur Mirushop. Explorez nos collections tendance, des vêtements. Profitez d'une expérience de shopping en ligne facile et sécurisée.">
-    <link rel="stylesheet" href="/Projet ecommerce/css/pro.css">
-    <script src="./Projet ecommerce/js/collection.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-
-</head>
-
-<body>
     <!DOCTYPE html>
 <html lang="fr">
 
@@ -27,7 +8,7 @@
     <title>Détail-produits</title>
     <meta name="description" content="Découvrez une large gamme de produits de qualité sur Mirushop. Explorez nos collections tendance, des vêtements personnalisés. Profitez d'une expérience de shopping en ligne facile et sécurisée.">
     <link rel="stylesheet" href="css/produit.css">
-    <script src="js/produit.js" defer></script>
+    <script src="js/collection.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
     <!--font awesome-->
@@ -60,112 +41,9 @@
             </div>
         </nav>
     </header>
-    <section class="product-page">
-        <div class="product-details">
-<!--img-->
-<div class="product-img">
-    <!--swiper-->
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <!--1-->
-            <div class="swiper-slide">
-                <img src="asset/collection-1.jpg" alt="">
-            </div>
-            <!--2-->
-            <div class="swiper-slide">
-                <img src="asset/collection-1.jpg" alt="">
-            </div>
-            <!--3-->
-            <div class="swiper-slide">
-                <img src="asset/collection-1.jpg" alt="">
-            </div>
-            <!--''-->
-            <div class="swiper-slide">
-                <img src="asset/collection-1.jpg" alt="">
-            </div>
-        </div>
-        <div class="slider-btns">
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-        </div>
-    </div>
-</div>
-
-<!-- product text -->
-<div class="product-text">
-    <!-- category -->
-    <span class="product-category">Collection Streetwear</span>
-    <!-- title -->
-    <h3>T-shirt Graffiti</h3>
-    <!-- Price -->
-    <span class="product-price">15 €</span>
-    <!-- details -->
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque animi sint aspernatur possimus esse commodi nesciunt quia, ullam excepturi, blanditiis et! Maxime ratione debitis asperiores eius provident obcaecati fuga doloribus.</p>
-    <!-- size container -->
-    <div class="product-size-container">
-        <strong>Selection Tailles</strong>
-        <!-- size -->
-        <div class="product-size"></div>
-        <!-- XL -->
-        <input type="checkbox" class="s-checkbox" id="s-xl">
-        <label for="s-xl" class="s-label">XL</label>
-        <!-- small -->
-        <input type="checkbox" class="s-checkbox" id="s-s">
-        <label for="s-s" class="s-label">S</label>
-        <!-- medium -->
-        <input type="checkbox" class="s-checkbox" id="s-m">
-        <label for="s-m" class="s-label">M</label>
-        <!-- large -->
-        <input type="checkbox" class="s-checkbox" id="s-l">
-        <label for="s-l" class="s-label">L</label>
-        <!-- product buttons -->
-        <div class="product-buttons">
-            <a href="#" class="add-bag-btn">Add To Bag</a>
-            <a href="#" class="add-wishlist-btn">Add To Wishlist</a>
-        </div>
-        <!-- help-btn -->
-        <a href="#" class="help-btn">Need Any help?</a>
-    </div>
-</div>
-    <!--Jquery cnd-->
-    <script
-  src="https://code.jquery.com/jquery-3.7.1.js"
-  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-  crossorigin="anonymous"></script>
-
-    <!-- Swiper JS -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script type="text/JavaScript">
-    $('.s-checkbox').on('change', function(){
-        $('.s-checkbox').not(this).prop('checked, false');
-    });
-    //Initialize Swiper -->
-    var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-      breakpoints: {
-        //after 450px screen slide pre view is "1"
-        450: {//apply after 820px and untill before 450px
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        820: {//apply after 1024px and untill before 820px
-          slidesPerView: 1,
-          spaceBetween: 00,
-        },
-        1024: {//apply after 1024px screen width
-          slidesPerView: 2,
-          spaceBetween: 50,
-        },
-      },
-    });
-  </script>
-
+<main id="detail">
+    
+</main>
 </body>
 <footer class="l-ft">
     <div class="l-ft__inr outerWidth">
