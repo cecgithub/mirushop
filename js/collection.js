@@ -118,7 +118,7 @@ const data = [
       .map(
         (product) =>
           `
-          <div class="product">
+          <div id=`+product.id+` class="product">
             <img
             src=${product.img}
             alt=""
@@ -194,4 +194,3 @@ const data = [
   
   setCategories();
   setPrices();
-  
