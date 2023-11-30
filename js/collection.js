@@ -63,8 +63,8 @@ const data = [
     },
     {
       id: 7,
-      name: "T shirt Sailor Moon",
-      img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
+      name: "T shirt Demon Slayer",
+      img: "asset/geek-mangas-1.png",
       price: 25,
       cat: "Collection Geek-Mangas",
     },
