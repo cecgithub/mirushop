@@ -297,7 +297,7 @@ function displayDetail(e) {
       data.forEach(function (product) {
           if (product.id === parseInt(e.target.id)) {
               // si ça correspond, on redirige avec l'id concaténé. fait attention à l'url, toi et moi n'avons pas le même
-              window.location.href="http://cecgithub/mirushop/detail-produit.html?id="+product.id;
+              window.location.href="http://127.0.0.1:5500/detail-produit.html?id="+product.id;
 
           }
 
