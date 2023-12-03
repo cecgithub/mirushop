@@ -6,7 +6,7 @@ const data = [
   {
       id: 1,
       name: "T shirt-tête de mort",
-      img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
+      img: "asset/hommes-tetedemort.png",
       price: 15,
       cat: "Collection Hommes",
   },
@@ -27,21 +27,21 @@ const data = [
   {
       id: 4,
       name: "T shirt graffiti",
-      img: "https://i.ibb.co/LzyJbZ1/black-hoddie.png",
+      img: "asset/streetwear-graffiti.png",
       price: 5,
       cat: "Collection Street wear",
   },
   {
       id: 5,
       name: "T shirt DBZ",
-      img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
+      img: "asset/geek-mangas-dbz.png",
       price: 10,
       cat: "Collection Geek-Mangas",
   },
   {
       id: 6,
       name: "T shirt Attack on Titan",
-      img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
+      img: "asset/geek-mangas-attackontitan.png",
       price: 25,
       cat: "Collection Geek-Mangas",
   },
@@ -55,7 +55,7 @@ const data = [
   {
       id: 8,
       name: "T shirt Art Graphique",
-      img: "https://i.ibb.co/HKy2PJS/girls-red-hoddie.png",
+      img: "asset/streetwear-art-graphique.png",
       price: 25,
       cat: "Collection Street wear",
   },
